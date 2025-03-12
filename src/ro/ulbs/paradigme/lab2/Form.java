@@ -12,11 +12,16 @@ public class Form {
         this.color = color;
     }
 
-    public String getArea() {
-        return 0;
+    public float getArea() {
+        return 0.0f;
+    }
+
+    public String getColor() {
+        return color;
     }
 
     public String toString() {
         return "This form has the color " + color;
     }
+
 }
