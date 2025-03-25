@@ -1,6 +1,4 @@
-import ro.ulbs.paradigme.lab2.Circle;
-import ro.ulbs.paradigme.lab2.Square;
-import ro.ulbs.paradigme.lab2.Triangle;
+package ro.ulbs.paradigme.lab2;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -16,5 +14,8 @@ public class Main {
         System.out.println("Triangle2 equals to Triangle1: " + tri.equals(tri2));
         Triangle tri3 = new Triangle(1.1F, 2.0F, "brown");
         System.out.println("Triangle3 equals to Triangle1: " + tri.equals(tri3));
+
+        // Afisare valoare contor
+        System.out.println("Number of Form instances created: " + Form.getCounter());
     }
 }

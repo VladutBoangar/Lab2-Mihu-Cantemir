@@ -1,8 +1,5 @@
-package ro.ulbs.lab3;
+package ro.ulbs.lab4;
 
-import ro.ulbs.paradigme.lab2.Circle;
-import ro.ulbs.paradigme.lab2.Square;
-import ro.ulbs.paradigme.lab2.Triangle;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
